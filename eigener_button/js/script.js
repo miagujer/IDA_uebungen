@@ -19,7 +19,9 @@ function neuesBild() {
     n++;
    let versatz = 20; /* um wieviel das bild jedesmal nach rechts rückt*/
    let myImage = new Image(100, 100);
-   myImage.src = 'assets/images/jackson.png';
+   myImage.src = 'images/svenja.png';
+   myImage = Math.random() * window.innerWidth + "px";
+    myImage = Math.random() * window.innerHeight + "px";
    myImage.classList.add('bild');
    myImage.style.left = n * versatz + "px";
    document.body.appendChild(myImage);
