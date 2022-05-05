@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svenjas searches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        /* Center the loader */
+        
+        #loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+            width: 120px;
+            height: 120px;
+            margin: -76px 0 0 -76px;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid red;
+            border-right: 16px solid transparent;
+            border-bottom: 16px solid red;
+            border-left: 16px solid transparent;
+            -webkit-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        /* Add animation to "page content" */
+        
+        .animate-bottom {
+            position: relative;
+            -webkit-animation-name: animatebottom;
+            -webkit-animation-duration: 1s;
+            animation-name: animatebottom;
+            animation-duration: 1s
+        }
+        
+        @-webkit-keyframes animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+            to {
+                bottom: 0px;
+                opacity: 1
+            }
+        }
+        
+        @keyframes animatebottom {
+            from {
+                bottom: -100px;
+                opacity: 0
+            }
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+        
+        #myDiv {
+            display: none;
+            text-align: center;
+        }
+    </style>
+
+    <body onload="myFunction()">
+
+        <div id="loader"></div>
+
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+
+        </div>
+
+        <script>
+            var myVar;
+
+            function myFunction() {
+                myVar = setTimeout(showPage, 100);
+            }
+
+            function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("myDiv").style.display = "block";
+            }
+        </script>
+
+
+        <header>
+            <div class="headerleft">://things svenja googled in one week</div>
+            <div class="headerright"><a href="mias_searches.html">[look what mia googled]</a></div>
+        </header>
+
+
+
+        <div class="container">
+            <div class="spalte">
+
+                <div>
+                    <div class="wort">slack¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 400px;"><img src="img/0.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste">
+                        <div style="background-image: url('./screenshots/0.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">dear imaginary audience¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 200px;"><img src="img/1.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 44px;">
+                        <div style="background-image: url('./screenshots/1.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">fotomuseum winterthur ausstellung memes¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 300px;"><img src="img/3.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 64px;">
+                        <div style="background-image: url('./screenshots/3.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">wetransfer¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 250px;"><img src="img/6.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 84px;">
+                        <div style="background-image: url('./screenshots/6.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">web¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 600px;"><img src="img/9.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 104px;">
+                        <div style="background-image: url('./screenshots/9.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">boston dynamics robot¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 150px;"><img src="img/11.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 124px;">
+                        <div style="background-image: url('./screenshots/11.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">bootstrap¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 700px;"><img src="img/12.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 144px;">
+                        <div style="background-image: url('./screenshots/12.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">typoclub¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 350px;"><img src="img/13.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 164px;">
+                        <div style="background-image: url('./screenshots/13.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">statistiken schweiz¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 550px;"><img src="img/14.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 184px;">
+                        <div style="background-image: url('./screenshots/14.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">shiftbase¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 800px;"><img src="img/15.webp" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 204px;">
+                        <div style="background-image: url('./screenshots/15.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">typoclub afterwork lecture¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 750px;"><img src="img/16.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 224px;">
+                        <div style="background-image: url('./screenshots/16.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">the natural enemy of books¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 450px;"><img src="img/17.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 244px;">
+                        <div style="background-image: url('./screenshots/17.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">hslu bibliothek¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 800px;"><img src="img/18.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 264px;">
+                        <div style="background-image: url('./screenshots/18.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="spalte">
+
+                <div>
+                    <div class="wort">waden französisch¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 600px;"><img src="img/19.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 284px;">
+                        <div style="background-image: url('./screenshots/19.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">neunzeit¬
+                        <button type="button" class="bildoverlap" style="top: 400px;left: 700px;"><img src="img/20.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 304px;">
+                        <div style="background-image: url('./screenshots/20.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div class="wort">datenbanken schweiz¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 750px;"><img src="img/21.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 324px;">
+                        <div style="background-image: url('./screenshots/21.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">hex blau¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 600px;"><img src="img/22.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 344px;">
+                        <div style="background-image: url('./screenshots/22.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">hex purple¬
+                        <button type="button" class="bildoverlap" style="top: 350px;left: 550px;"><img src="img/24.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 364px;">
+                        <div style="background-image: url('./screenshots/24.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">tastaturbefehl emoji mac¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 600px;"><img src="img/25.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 384px;">
+                        <div style="background-image: url('./screenshots/25.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">emojis¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 550px;"><img src="img/26.avif" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 404px;">
+                        <div style="background-image: url('./screenshots/26.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">ameise¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 800px;"><img src="img/27.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 424px;">
+                        <div style="background-image: url('./screenshots/27.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">ameise png¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 850px;"><img src="img/28.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 444px;">
+                        <div style="background-image: url('./screenshots/28.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">htnl css multiply¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 550px;"><img src="img/29.jpg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 464px;">
+                        <div style="background-image: url('./screenshots/29.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">ameisen bildschirm¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 800px;"><img src="img/30.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 484px;">
+                        <div style="background-image: url('./screenshots/30.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">text¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 750px;"><img src="img/31.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 504px;">
+                        <div style="background-image: url('./screenshots/31.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">clammy clams patrick savile¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 650px;"><img src="img/32.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 524px;">
+                        <div style="background-image: url('./screenshots/32.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">dueker zürich¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 800px;"><img src="img/33.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 544px;">
+                        <div style="background-image: url('./screenshots/33.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="spalte">
+
+                <div>
+                    <div class="wort">festival des images vevey 2020¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 800px;"><img src="img/35.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 564px;">
+                        <div style="background-image: url('./screenshots/35.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">google deepdream¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 400px;"><img src="img/36.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 584px;">
+                        <div style="background-image: url('./screenshots/36.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">ilias hslu¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 200px;"><img src="img/37.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 604px;">
+                        <div style="background-image: url('./screenshots/37.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">github¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 300px;"><img src="img/38.svg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 624px;">
+                        <div style="background-image: url('./screenshots/38.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">text¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 250px;"><img src="img/39.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 644px;">
+                        <div style="background-image: url('./screenshots/39.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">sich melden franz¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 100px;"><img src="img/41.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 664px;">
+                        <div style="background-image: url('./screenshots/41.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">shop a personality¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 150px;"><img src="img/42.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 684px;">
+                        <div style="background-image: url('./screenshots/42.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">russland delfine militär¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 900px;"><img src="img/43.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 704px;">
+                        <div style="background-image: url('./screenshots/43.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">mondrian¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 150px;"><img src="img/44.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 724px;">
+                        <div style="background-image: url('./screenshots/44.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">bluewin mail¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 900px;"><img src="img/45.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 744px;">
+                        <div style="background-image: url('./screenshots/45.PNG');
+                     background-position: center; background-repeat: no-repeat; 
+                     background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">bagno polare¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 100px;"><img src="img/46.webp" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 764px;">
+                        <div style="background-image: url('./screenshots/46.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">bureau substrat¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 850px;"><img src="img/47.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 784px;">
+                        <div style="background-image: url('./screenshots/47.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">da gio baden¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 150px;"><img src="img/48.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 804px;">
+                        <div style="background-image: url('./screenshots/48.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">millet¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 900px;"><img src="img/49.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 824px;">
+                        <div style="background-image: url('./screenshots/49.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="spalte">
+
+                <div>
+                    <div class="wort">flocons de millet¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 200px;"><img src="img/50.webp" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 844px;">
+                        <div style="background-image: url('./screenshots/50.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">flohmarkt baden theaterplatz¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 400px;"><img src="img/51.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 864px;">
+                        <div style="background-image: url('./screenshots/51.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">there are worse bands¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 200px;"><img src="img/52.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 884px;">
+                        <div style="background-image: url('./screenshots/52.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">sriracha sauce¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 300px;"><img src="img/55.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 904px;">
+                        <div style="background-image: url('./screenshots/55.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">seitenumbruch google docs¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 250px;"><img src="img/-1.webp" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 924px;">
+                        <div style="background-image: url('./screenshots/-1.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">datenbanken sammlung¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 100px;"><img src="img/-2.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 944px;">
+                        <div style="background-image: url('./screenshots/-2.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">interdependenz¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 150px;"><img src="img/-3.png" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 964px;">
+                        <div style="background-image: url('./screenshots/-3.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">willisau troxler¬
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 200px;"><img src="img/-4.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 984px;">
+                        <div style="background-image: url('./screenshots/-4.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">nathan der weise¬
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 350px;"><img src="img/-5.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1004px;">
+                        <div style="background-image: url('./screenshots/-5.PNG');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">neugierig franz¬
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 150px;"><img src="img/-6.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1024px;">
+                        <div style="background-image: url('./screenshots/-6.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">studio shorts its nice that¬
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 800px;"><img src="img/-7.webp" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1044px;">
+                        <div style="background-image: url('./screenshots/-7.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">
+                        <button type="button" class="bildoverlap" style="top: 300px;left: 150px;"><img src="img/slack1.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1094px;">
+                        <div style="background-image: url('./screenshots/Bildschirmfoto\ 2022-04-26\ um\ 13.05.31.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">
+                        <button type="button" class="bildoverlap" style="top: 150px;left: 450px;"><img src="img/slack1.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1144px;">
+                        <div style="background-image: url('./screenshots/Bildschirmfoto\ 2022-04-26\ um\ 13.05.31.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">
+                        <button type="button" class="bildoverlap" style="top: 200px;left: 800px;"><img src="img/slack1.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1164px;">
+                        <div style="background-image: url('./screenshots/Bildschirmfoto\ 2022-04-26\ um\ 13.05.31.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wort">
+                        <button type="button" class="bildoverlap" style="top: 100px;left: 200px;"><img src="img/slack1.jpeg" width="500px"></button>
+                    </div>
+                    <div class="zeitleiste" style="left: 1214px;">
+                        <div style="background-image: url('./screenshots/Bildschirmfoto\ 2022-04-26\ um\ 13.05.31.png');
+                    background-position: center; background-repeat: no-repeat; 
+                    background-size: cover; width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px; bottom: 2em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 1.65em;">
+                mon
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px;bottom: 2.2em; margin-left: 5em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 6.65em;">
+                tue
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px;bottom: 2.2em; margin-left: 20em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 21.65em;">
+                wed
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px;bottom: 2.2em; margin-left: 33.75em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 35.4em;">
+                thu
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px;bottom: 2.2em; margin-left: 46.25em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 47.9em;">
+                fri
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 80px;bottom: 2.2em; margin-left: 55em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 7.5em; left: 56.65em;">
+                sat
+            </div>
+
+            <div class="tagesbeschriftung">
+                <box style="border: solid white 1px;border-top: none;border-bottom: none; border-right: none; padding-top: 60px;bottom: 2.2em; margin-left: 56.25em;"></box>
+            </div>
+            <div class="tagesbeschriftung" style="bottom: 6.3em; left: 58em;">
+                sun
+            </div>
+
+
+
+
+        </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </body>
+
+</html>

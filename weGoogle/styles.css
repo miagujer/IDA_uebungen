@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Cinetype;
+    src: url(GT-Cinetype-Mono.woff);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    font-family: Cinetype;
+    color: white;
+    padding: 0;
+    margin: 1.5em;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 7vw;
+    line-height: 8.5vw;
+    margin-bottom: 1.5em;
+}
+
+.search {
+    font-size: 7vw;
+    text-transform: lowercase;
+    font-size: 2.5em;
+    position: fixed;
+    bottom: 0.8em;
+    right: 0.8em;
+}
+
+header {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.headerleft {
+    font-size: 2.5em;
+}
+
+.headerright {
+    text-align: right;
+    position: fixed;
+    right: 1em;
+    top: 0em;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    font-family: Cinetype;
+    margin-top: 1.5em;
+}
+
+.spalte {
+    width: 25%;
+    flex-direction: row;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.wort {
+    line-height: 20px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.bildoverlap {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    background-color: none;
+    border: none;
+    background-color: transparent;
+}
+
+.wort:hover .bildoverlap {
+    display: block;
+}
+
+.wort:hover {
+    color: red;
+    /*letter-spacing: 5px;*/
+}
+
+.zeitleiste {
+    position: fixed;
+    bottom: 1.7em;
+    border: none;
+    width: 20px;
+    height: 54.5px;
+}
+
+.zeitleiste:hover~.wort {
+    border: solid green 3px;
+}
+
+.wort:hover~.zeitleiste {
+    border: solid red 2px;
+}
+
+.tagesbeschriftung {
+    position: fixed;
+    bottom: 2.2em;
+}
+
+.about {
+    background-color: white;
+    size: 3vw;
+}
+
+
+/*insert in html
+<button class="about" onclick="alert('One Google search consumes the same amount of energy as turning on a 60W light bulb for about 17 seconds. We do not only polute the environment with google searches, but also our devices by leaving search tabs open for days or Google the same terms over and over again. This work reflects this behaviour at the same time as it is taking a closer look on our personal relationship with search engines. When hovering over the list of keywords a representative image of the search apears. By linking the timeline of screenshots of searches to the keywords you get an overal image of the search behaviour.')">about</button>*/
