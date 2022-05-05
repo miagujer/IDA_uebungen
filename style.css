@@ -6,11 +6,16 @@
 body{
     font-family: akkurat mono;
     color: black;
-    font-size: 50px;
-    background-color: cadetblue;
+    font-size: 40px;
+    background-color: rgb(255, 0, 0);
 }
 
 a{
     color: black;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: solid yellow 10px; 
+    color: rgb(255, 0, 0);
 }
