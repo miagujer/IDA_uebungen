@@ -6,7 +6,7 @@
 body{
     font-family: akkurat mono;
     color: black;
-    font-size: 40px;
+    font-size: 37px;
     background-color: rgb(255, 0, 0);
 }
 
@@ -16,6 +16,5 @@ a{
 }
 
 a:hover{
-    text-decoration: solid yellow 10px; 
     color: rgb(255, 0, 0);
 }
