@@ -1,0 +1,20 @@
+
+
+@font-face {
+        font-family: "PxGrotesk";
+        src: url("../fonts/PxGrotesk-Regular.woff");
+}
+
+@font-face {
+    font-family: "lava";
+    src: url("../fonts/Pilowlava-Regular.woff");
+}
+
+body{background-color: red;}
+
+h2{font-size: 60px;font-family: "lava";text-align: center; line: height -5px; font-size: 140px;}
+p{font-size: 60px;font-family: "lava";text-align: center; line-height:5px;}
+
+
+
+
