@@ -1,0 +1,16 @@
+@font-face {
+    font-family:akkurat mono;
+    src: url(AkkuratStd-Mono.woff);
+}
+
+body{
+    font-family: akkurat mono;
+    color: black;
+    font-size: 50px;
+    background-color: cadetblue;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
