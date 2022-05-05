@@ -1,0 +1,53 @@
+@font-face {
+    font-family: format;
+    src: url(fonts/Format_1452.woff);
+}
+
+body{
+    font-family: format;
+}
+
+.button1 {
+    background-color: rgb(255, 0, 0);
+    font-family: format;
+    border-color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    
+}
+
+#element {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 250px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.random{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+   
+}
+
+.button2{
+    background-color: rgb(8, 0, 255);
+    font-family: format;
+    border-color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.button3{
+    background-color: rgb(8, 0, 255);
+    font-family: format;
+    border-color: black;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+}
