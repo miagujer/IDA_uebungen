@@ -1,0 +1,11 @@
+@font-face {
+    font-family: pixel;
+    src: url(PxGrotesk-Regular.woff);
+}
+
+body{
+font-family: pixel;
+font-size: 400px;
+color: red;
+background-color: aqua;
+}
