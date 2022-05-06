@@ -26,6 +26,18 @@
     right: 10px;
 }
 
+.button3{
+    background-color: white;
+    border: solid 5px blue; 
+    height: 98px;
+    width: 450px;
+    margin: 8px;
+    font-size: 38px;
+    position: fixed;
+    top: 170px;
+    right: 10px;
+}
+
 @font-face {
     font-family:pixel ;
     src: url(PxGrotesk-Regular.woff);
@@ -34,3 +46,11 @@
 body{
     font-family: pixel;
 }
+
+/*.katzen{
+    font-size: 38px;
+    position: fixed;
+    top: 110px;
+    right: 10px; 
+} */
+
