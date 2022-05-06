@@ -4,8 +4,18 @@
 }
 
 body{
-font-family: pixel;
-font-size: 400px;
-color: red;
 background-color: aqua;
+}
+
+.typo{
+    font-family: pixel;
+    font-size: 230px;
+    color: red;
+}
+
+.box{
+    border-color: red;
+    border:  5px;
+    height: 600px;
+    width: 40px;
 }
