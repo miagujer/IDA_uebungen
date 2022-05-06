@@ -1,3 +1,36 @@
 .pointer{
-    
+
+}
+
+.button1{
+    background-color: white;
+    border: solid 5px blue; 
+    height: 40px;
+    width: 450px;
+    margin: 8px;
+    font-size: 38px;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+}
+
+.button2{
+    background-color: white;
+    border: solid 5px blue; 
+    height: 40px;
+    width: 450px;
+    margin: 8px;
+    font-size: 38px;
+    position: fixed;
+    top: 110px;
+    right: 10px;
+}
+
+@font-face {
+    font-family:pixel ;
+    src: url(PxGrotesk-Regular.woff);
+}
+
+body{
+    font-family: pixel;
 }
