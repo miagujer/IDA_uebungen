@@ -1,0 +1,44 @@
+.button{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 15px royalblue;
+    background-color: bisque;
+    color: red;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+box-shadow: yellow 5px 5px 5px;
+}
+
+@font-face {
+    font-family: akkurat mono;
+    src: url(AkkuratStd-Mono.woff);
+}
+
+body{
+    font-family: akkurat mono;
+}
+
+.kafi{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 15px royalblue;
+    background-color: bisque;
+    color: red;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
